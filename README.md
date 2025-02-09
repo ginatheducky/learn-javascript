@@ -1,3 +1,4 @@
 # learn-javascript
 
-[My Projects](https://ginatheducky.github.io/learn-javascript/quote-generator/)
+Projects:
+- [Quote Generator](https://ginatheducky.github.io/learn-javascript/quote-generator/)
