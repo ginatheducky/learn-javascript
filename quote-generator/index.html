@@ -24,18 +24,18 @@
 
     <!-- Main -->
     <div class="container">
-        <div class="card">
+        <div class="card" id="quote-container">
             <!-- Quote -->
             <div class="card-body">
                 <!-- Quote Text -->
                 <div class="quote-text text-center">
                     <i class="fas fa-quote-left"></i>
-                    <span id="quote">A blessed thing it is for any man or woman to have a friend, one human soul whom we can trust utterly, who knows the best and worst of us, and who loves us in spite of all our faults.</span>
+                    <span id="quote"></span>
                 </div>
 
                 <!-- Quote Author -->
-                <div class="quote-author text-center">
-                    <span id="author">Charles Kingsley</span>
+                <div class="quote-author text-center mt-4">
+                    <span id="author"></span>
                 </div>
             </div>
 
@@ -45,6 +45,9 @@
                 <button type="button" class="btn btn-dark" id="new-quote">New Quote</button>
             </div>
         </div>
+        
+        <!-- Loader -->
+        <div class="loader" id="loader"></div>
     </div>
 </body>
 </html>
